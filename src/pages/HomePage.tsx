@@ -100,12 +100,13 @@ function HeroSection({ onNavigate }: HomePageProps) {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1581092335871-4c7b80e83dd6?w=1600&q=80"
+          src="/sgs-fan-05.png" 
           alt=""
           aria-hidden
-          className="w-full h-full object-cover animate-slow-pan opacity-25"
+          className="w-full h-full object-cover animate-slow-pan opacity-60" 
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black-soft via-black-soft/85 to-transparent" />
+        {/* Adjusted gradient to let the image show through better */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
       </div>
 
       {/* Content */}
@@ -123,7 +124,7 @@ function HeroSection({ onNavigate }: HomePageProps) {
           Nigeria's Most Powerful Industrial Fans
         </h1>
 
-        <p className="text-white/65 text-lg md:text-xl max-w-lg mb-10 leading-relaxed">
+        <p className="text-white/80 text-lg md:text-xl max-w-lg mb-10 leading-relaxed text-shadow-sm">
           From factory floors to outdoor events — Sprint GS fans cool spaces up to 850 sqm.
           2m+ blades, engineered in Lagos.
         </p>
@@ -138,23 +139,23 @@ function HeroSection({ onNavigate }: HomePageProps) {
           </button>
           <button
             onClick={() => onNavigate('contact')}
-            className="btn btn-outline gap-2"
+            className="btn btn-outline gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-white/20"
           >
             Get a Quote
           </button>
         </div>
 
         {/* Trust badges */}
-        <div className="flex flex-wrap gap-5 mt-12 text-white/45 text-sm">
-          <span className="flex items-center gap-1.5">
+        <div className="flex flex-wrap gap-5 mt-12 text-white/70 text-sm font-medium">
+          <span className="flex items-center gap-1.5 drop-shadow-md">
             <Shield className="w-4 h-4 text-primary" />
             5-Year Structural Warranty
           </span>
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 drop-shadow-md">
             <Wind className="w-4 h-4 text-primary" />
             Up to 12,000 CFM
           </span>
-          <span className="flex items-center gap-1.5">
+          <span className="flex items-center gap-1.5 drop-shadow-md">
             <Zap className="w-4 h-4 text-primary" />
             IE3 Energy Efficiency
           </span>
