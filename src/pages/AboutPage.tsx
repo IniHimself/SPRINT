@@ -66,8 +66,8 @@ const caseStudies = [
   {
     image:
       'https://images.unsplash.com/photo-1581092335871-4c7b80e83dd6?w=800&q=80',
-    client: 'Dangote Refinery',
-    industry: 'Oil & Gas',
+    client: 'RCCG Redemption City',
+    industry: 'Missionary',
     challenge: 'Large-scale warehouse cooling with 24/7 operational demands',
     solution: '24 units of SGS-240 ceiling fans with centralized control',
     result: 'Improved worker productivity and product quality assurance',
@@ -100,8 +100,8 @@ const caseStudies = [
   {
     image:
       'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80',
-    client: 'Nigerian Textiles Limited',
-    industry: 'Manufacturing',
+    client: 'Dangote Refinery',
+    industry: 'Oil & Gas',
     challenge: 'Maintain precise temperature control for fabric production',
     solution: '15 SGS-240 units with variable frequency drive system',
     result: 'Reduced product defects by 18% and improved staff retention',
