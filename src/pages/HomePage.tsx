@@ -11,21 +11,21 @@ interface HomePageProps {
 
 const featuredProducts = [
   {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80',
+    image: '/sgs-01-fan.jfif',
     badge: 'Best Seller',
     title: 'Ceiling Fan SGS-240',
     description: '2.4m diameter, high-volume low-speed ceiling fan for factories and warehouses.',
     specs: ['2.4m', '12,000 CFM', 'Silent'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1504917595217-d4c93d0c5b4a?w=600&q=80',
+    image: '/sgs-fan-04.jpeg',
     badge: 'Mobile',
     title: 'Standing Fan SGM-220',
     description: '2.2m mobile industrial fan with adjustable height and oscillation. Plug & play.',
     specs: ['2.2m', '9,500 CFM', 'Castor Wheels'],
   },
   {
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22731fc2e0?w=600&q=80',
+    image: '/sgs-fan-03.jpeg',
     badge: 'Mist/Water',
     title: 'Mist Fan SGW-200',
     description: '2.0m mobile mist/water fan with integrated high-pressure pump. Cools 300+ sq.m.',
