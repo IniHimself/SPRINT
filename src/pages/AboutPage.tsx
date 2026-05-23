@@ -65,7 +65,7 @@ const coreValues = [
 const caseStudies = [
   {
     image:
-      'https://images.unsplash.com/photo-1581092335871-4c7b80e83dd6?w=800&q=80',
+      '/sgs-fan-05.png',
     client: 'RCCG Redemption City',
     industry: 'Missionary',
     challenge: 'Large-scale warehouse cooling with 24/7 operational demands',
@@ -82,7 +82,24 @@ const caseStudies = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+      '/sgs-01-fan.jfif',
+    client: 'Redeemers Univeristy',
+    industry: 'School',
+    challenge: 'Cooling 5,000 sqm outdoor event space during peak season',
+    solution: '8 mobile SGW-200 mist fans with real-time monitoring',
+    result: 'Enhanced guest experience with 12°C temperature reduction',
+    quote:
+      'Our students now have properly ventilated lecture halls. These fans are a game-changer for University and halls in Nigeria.',
+    stats: [
+      { number: '500', label: 'Sq.m Covered' },
+      { number: '8', label: 'Units Deployed' },
+      { number: '12°C', label: 'Cooling Drop' },
+      { number: '94%', label: 'Guest Satisfaction' },
+    ],
+  },
+  {
+    image:
+      '/event-center.jpg',
     client: 'Lagos Event Centre',
     industry: 'Hospitality & Events',
     challenge: 'Cooling 5,000 sqm outdoor event space during peak season',
@@ -99,7 +116,7 @@ const caseStudies = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80',
+      '/sgs-fan-03.jpeg',
     client: 'Dangote Refinery',
     industry: 'Oil & Gas',
     challenge: 'Maintain precise temperature control for fabric production',
